@@ -1,2 +1,5 @@
-# STATS202-DataMining-FinalProject
-STATS 202: Data Mining - Stanford University
+# STATS 202: Data Mining - Stanford University
+
+Title: Security Ticker Prediction using Time-Series Forecasting with an LSTM
+
+Abstract: There are many important applications of data mining, from healthcare to the weather system. The stock market is perhaps one of the most important applications due to the volatile nature of the stock market and its relevance to everyday life. For the final project, we were tasked with predicting opening security ticker prices for 9 days in the future at 5 second intervals for a total of 5040 intervals per day (45,360 predictions total for each ticker) using real-world financial security candlestick data of past security prices for approximately 87 days. At each interval we are given multiple attributes that describe the price throughout the specific interval, and we are asked to predict the opening price. There are many different models that are well-suited for this task, such as ARIMA or Facebook Prophet. In this report, I describe the implementation of the Long Short Term Memory (LSTM) model for time-series forecasting and evaluate the performance of my implementation.
